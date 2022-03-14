@@ -1,0 +1,25 @@
+@import '../../colors.scss';
+@import '../../mixins.scss';
+.button-primary{
+    background-color: $primary;
+    color:white;
+    @include base-button;
+}
+
+.button-success{
+    background-color: $success;
+    color:white;
+    @include base-button;
+}
+
+.button-light{
+    background-color: $light;
+    color:$dark;
+    @include base-button;
+}
+
+.button-dark{
+    background-color: $dark;
+    color:$light;
+    @include base-button;
+}

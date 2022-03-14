@@ -1,0 +1,11 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+@mixin base-button{
+    padding: 10px 28px;
+    border:0px solid;
+    border-radius: 10px;    
+    font-family:"PoppinsMedium";
+    min-width: 96px;
+    font-size: 14px;
+}   
