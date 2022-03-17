@@ -5,7 +5,7 @@ import './Button.scss';
 
 export default function Button({ label, variant, onClick }) {
   return (
-    <button className={"button-" + variant} onClick={onClick}
+    <button className={"button button-" + variant} onClick={onClick}
     >
       {label}
     </button>

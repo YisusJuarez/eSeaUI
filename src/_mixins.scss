@@ -9,3 +9,8 @@
     min-width: 96px;
     font-size: 14px;
 }   
+
+@mixin base-title{
+    font-family: 'PoppinsMedium';
+    margin-bottom: 10px;
+}   

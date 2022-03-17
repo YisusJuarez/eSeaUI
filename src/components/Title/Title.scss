@@ -1,22 +1,40 @@
-@import '../../colors.scss';
+@import "../../colors.scss";
+@import "../../mixins.scss";
 
-.title-h1{
-    font-family: 'PoppinsMedium';
-    font-size: 60px;
-    color: $dark;
-    margin-bottom: 10px;
+.title-dark {
+  color: $dark;
 }
 
-.title-h2{
-    font-family: 'PoppinsMedium';
-    font-size: 48px;
-    color: $dark;
-    margin-bottom: 10px;
+.title-light {
+  color: $light;
 }
 
-.title-h3{
-    font-family: 'PoppinsMedium';
-    font-size: 36px;
-    color: $dark;
-    margin-bottom: 10px;
+.title-h1 {
+  font-size: 60px;
+  @include base-title;
+}
+
+.title-h2 {
+  font-size: 48px;
+  @include base-title;
+}
+
+.title-h3 {
+  font-size: 36px;
+  @include base-title;
+}
+
+.title-h4 {
+  font-size: 24px;
+  @include base-title;
+}
+
+.title-h5 {
+  font-size: 18px;
+ @include base-title;
+}
+
+.title-h6 {
+  font-size: 14px;
+  @include base-title;
 }
